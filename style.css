@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+body {
+    background-color: rgb(56, 31, 31);
+    color: #fff;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main__block {
+    width: 700px;
+    height: 500px;
+    text-align: center;
+}
+
+#in, #in2 {
+    font-size: 24px;
+    font-family: 'Arsenal', sans-serif;
+    background-color: rgb(56, 31, 31);
+    color: paleturquoise;
+}
+
+#out, #out3 {
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(138, 153, 0);
+    overflow: hidden;
+}
+
+.text {
+    font-size: 22px;
+    display: inline-block;
+    font-family: 'Poiret One', cursive;
+
+}
